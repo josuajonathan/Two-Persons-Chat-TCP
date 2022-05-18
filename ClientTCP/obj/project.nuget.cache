@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gE8VhKat0ZNZ8yRjO8QLzZMPcGfLik8JU+m3M6qCKcy3mvNw5Ailb4MXMpME9KyI2wTSTk8Lp9Ghjy82cEsi3Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ACER\\source\\repos\\ClientTCP\\ClientTCP\\ClientTCP.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\supersimpletcp\\2.6.0.8\\supersimpletcp.2.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
