@@ -1,0 +1,16 @@
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.exe
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.deps.json
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.runtimeconfig.json
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.runtimeconfig.dev.json
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.dll
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\ref\TCPClient.dll
+C:\Users\ACER\source\repos\TCPClient\TCPClient\bin\Debug\net5.0\TCPClient.pdb
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.AssemblyInfo.cs
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.dll
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\ref\TCPClient.dll
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.pdb
+C:\Users\ACER\source\repos\TCPClient\TCPClient\obj\Debug\net5.0\TCPClient.genruntimeconfig.cache
