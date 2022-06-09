@@ -18,21 +18,24 @@ namespace Server
             Socket ServerListener = new Socket(AddressFamily.InterNetwork, SocketType.Stream,
                 ProtocolType.Tcp);
             IPEndPoint ep = new IPEndPoint(IPAddress.Parse(ipAddress), port);
+
             ServerListener.Bind(ep);
             ServerListener.Listen(100);
             Console.WriteLine("Server is Listening....");
             Socket ClientSocket = default(Socket);
-            int counter = 0;
+            int num = 0;
             Program p = new Program();
-            while(true)
+
+            while (true)
             {
-                counter++;
+                num++;
                 ClientSocket = ServerListener.Accept();
-                Console.WriteLine(counter + "Clients Connected");
+                Console.WriteLine(num + " Clients Connected");
+
                 Thread UserThread = new Thread(new ThreadStart(() => p.User(ClientSocket)));
                 UserThread.Start();
             }
-            
+
         }
 
         public void User(Socket client)
@@ -41,8 +44,13 @@ namespace Server
             {
                 byte[] message = new byte[1024];
                 int size = client.Receive(message);
-                client.Send(message, 0, size, SocketFlags.None);
                 Console.WriteLine("Client : " + System.Text.Encoding.ASCII.GetString(message, 0, size));
+
+                string messageFromServer = null;
+                Console.Write("You : ");
+                messageFromServer = Console.ReadLine();
+                client.Send(System.Text.Encoding.ASCII.GetBytes(messageFromServer), 0,
+                messageFromServer.Length, SocketFlags.None);
             }
         }
     }
