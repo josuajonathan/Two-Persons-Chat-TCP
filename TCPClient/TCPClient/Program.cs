@@ -19,13 +19,20 @@ namespace Client
             IPEndPoint ep = new IPEndPoint(IPAddress.Parse(ipAddress), port);
             ClientSocket.Connect(ep);
             Console.WriteLine("Client is Connected!");
-            Console.WriteLine("Enter the Message");
+
+            Program p = new Program();
+
             while (true)
             {
                 string messageFromClient = null;
+                Console.Write("You : ");
                 messageFromClient = Console.ReadLine();
                 ClientSocket.Send(System.Text.Encoding.ASCII.GetBytes(messageFromClient), 0,
-                    messageFromClient.Length, SocketFlags.None);
+                messageFromClient.Length, SocketFlags.None);
+
+                byte[] message = new byte[1024];
+                int size = ClientSocket.Receive(message);
+                Console.WriteLine("Server : " + System.Text.Encoding.ASCII.GetString(message, 0, size));
             }
         }
     }
