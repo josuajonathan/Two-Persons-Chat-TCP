@@ -1,4 +1,7 @@
 # Two-Persons-Chat-TCP
 
-Tampilan Output Chat :
-![CaptureTCP](https://user-images.githubusercontent.com/87791029/175477261-15c8a81d-b23f-456a-86ed-abc2b1dd2ffd.PNG)
+Chat Server
+![CaptureTCP](https://user-images.githubusercontent.com/87791029/175477464-e322f24f-d851-4525-8b65-1799c9ffdf12.PNG)
+
+Chat Client
+![CaptureTCPClient](https://user-images.githubusercontent.com/87791029/175477597-0d0ac19c-b3a8-4e42-9700-5798e973bfa0.PNG)
